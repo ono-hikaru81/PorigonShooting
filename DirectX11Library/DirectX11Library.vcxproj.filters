@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Window">
+      <UniqueIdentifier>{6bc9e35e-4727-473a-b2eb-d58e69a12f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{29407a15-63fd-40de-993e-c068e4659c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine">
+      <UniqueIdentifier>{5f122e98-f599-4f4e-b533-aba8d7cc05c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Engine\Shader">
+      <UniqueIdentifier>{ddf665b4-3ec9-41dc-8f77-6dd286a9a0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{0b8645f4-c8b4-47b8-bb3e-6fcb727034e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Window\Window.cpp">
+      <Filter>ソース ファイル\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\DirectGraphics.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\PolygonData.cpp">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Shader\PixelShader.cpp">
+      <Filter>ソース ファイル\Engine\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Shader\ShaderBase.cpp">
+      <Filter>ソース ファイル\Engine\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Shader\VertexShader.cpp">
+      <Filter>ソース ファイル\Engine\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Window\Window.h">
+      <Filter>ソース ファイル\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Utility\Graphics.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\DirectGraphics.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\PolygonData.h">
+      <Filter>ソース ファイル\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Shader\PixelShader.h">
+      <Filter>ソース ファイル\Engine\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Shader\ShaderBase.h">
+      <Filter>ソース ファイル\Engine\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Shader\VertexShader.h">
+      <Filter>ソース ファイル\Engine\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Utility\Vector.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Definition.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\VertexShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\PixelShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
